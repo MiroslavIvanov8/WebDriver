@@ -44,7 +44,7 @@ namespace TestProject1
             divResult = driver.FindElement(By.Id("result"));
         }
 
-        [OneTimeTearDown]
+        [TearDown]
         public void TearDown()
         {
             driver.Dispose();

@@ -91,9 +91,13 @@ namespace TestProject3
                 }
             }
 
-            // Quit the driver
+        }
+        [TearDown]
+        public void TearDown()
+        {
             driver.Dispose();
             driver.Quit();
         }
+
     }
 }
