@@ -47,6 +47,7 @@ namespace TestProject1
         [OneTimeTearDown]
         public void TearDown()
         {
+            driver.Dispose();
             driver.Quit();
         }
 

@@ -92,6 +92,7 @@ namespace TestProject3
             }
 
             // Quit the driver
+            driver.Dispose();
             driver.Quit();
         }
     }
